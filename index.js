@@ -3,20 +3,17 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let paswA = document.getElementById("psw1")
 let paswB = document.getElementById("psw2")
-let check = true
 function generatePsw(){
     //Math.floor(Math.random()*characters.length)
-    if(check ===true){
+    if((!paswA.textContent)){
     for(i=0;i<15;i++){
         paswA.textContent += characters[Math.floor(Math.random()*characters.length)]
         paswB.textContent += characters[Math.floor(Math.random()*characters.length)]
-        check= false
         }   
     }
 }
 
 function resetPsw(){
-    check = true;
-    paswA.textContent =" "
-    paswB.textContent =" "
+    paswA.textContent =""
+    paswB.textContent =""
 }
