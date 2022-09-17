@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+h1 {
+    color: white
+}
+.btn{
+    background: #10B981;
+    color: white;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+    border-radius: 6px;
+}
+.btnR{
+    background: red;
+    color: white;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+    border-radius: 6px;
+}
+.p1{
+    border-radius: 6px;
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    left: 15px;
+    top: 150px;
+    color: #55F991;
+}
+.p2{
+    border-radius: 6px;
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    left: 250px;
+    top: 150px;
+    color: #55F991;
+}
